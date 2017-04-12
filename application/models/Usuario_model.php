@@ -11,7 +11,7 @@ class Usuario_model extends CI_Model implements Mirror
   {
     parent::__construct();
   }
-
+  
   public function get_all(){
     return $this->db->get($this->table)->result();
   }
